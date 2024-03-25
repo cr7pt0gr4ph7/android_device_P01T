@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_P023.mk
+    $(LOCAL_DIR)/lineage_P01T.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_P023-user \
-    lineage_P023-userdebug \
-	lineage_P023-eng
+    lineage_P01T-user \
+    lineage_P01T-userdebug \
+	lineage_P01T-eng

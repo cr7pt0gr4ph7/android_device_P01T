@@ -17,22 +17,23 @@
 # Product-specific compile-time definitions.
 #
 
-LOCAL_PATH := device/asus/P023
+LOCAL_PATH := device/asus/P01T
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
 # Architecture
 TARGET_ARCH := x86
-TARGET_ARCH_VARIANT := atom
+TARGET_ARCH_VARIANT := silvermont
 TARGET_CPU_ABI := x86
 TARGET_CPU_ABI2 := armeabi-v7a
 TARGET_CPU_ABI_LIST := x86,armeabi-v7a,armeabi
 TARGET_CPU_ABI_LIST_32_BIT := x86,armeabi-v7a,armeabi
 
 # Board
-TARGET_BOARD_PLATFORM := eeepad
-TARGET_BOOTLOADER_BOARD_NAME := eeepad
+TARGET_BOARD_PLATFORM := moorefield
+TARGET_BOOTLOADER_BOARD_NAME := moorefield
 
 # Bootloader
+...
 TARGET_NO_BOOTLOADER := true
 
 # Binder API version
