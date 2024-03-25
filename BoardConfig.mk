@@ -33,7 +33,6 @@ TARGET_BOARD_PLATFORM := moorefield
 TARGET_BOOTLOADER_BOARD_NAME := moorefield
 
 # Bootloader
-...
 TARGET_NO_BOOTLOADER := true
 
 # Binder API version
@@ -41,6 +40,5 @@ TARGET_USES_64_BIT_BINDER := true
 
 # Kernel
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := x86_64-linux-android-
-# TARGET_KERNEL_SOURCE := kernel/asus/Z00D
+TARGET_KERNEL_SOURCE := kernel/asus/P01T
 TARGET_KERNEL_ARCH := x86
-# TARGET_NO_KERNEL := true
